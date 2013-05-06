@@ -1,6 +1,5 @@
 .page-header {
     margin: 0 0 40px;
-    min-width: 900px;
     padding: 0;
     font-family: Georgia, serif;
     background: $headerBGColor;
@@ -58,6 +57,7 @@
 	Header content 
 */
 .header-content {
+	min-width: 900px;
 	padding: 20px 0;
 	border-top: 1px solid lighten($headerBGColor, 5%);
 	border-bottom: 1px solid darken($headerBGColor, 10%);
@@ -86,6 +86,7 @@
 	Main nav
 */
 .main-nav {
+	min-width: 900px;
 	font-size: 14px;
 	margin: 0;
 	padding: 0;

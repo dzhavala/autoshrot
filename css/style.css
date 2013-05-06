@@ -750,13 +750,14 @@ html, body {
 */
 /* line 59, ../scss/modules/_header.scss */
 .header-content {
+  min-width: 900px;
   padding: 20px 0;
   border-top: 1px solid #385f8b;
   border-bottom: 1px solid #223a55;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
 
-/* line 65, ../scss/modules/_header.scss */
+/* line 66, ../scss/modules/_header.scss */
 .site-title {
   font-size: 25px;
   line-height: 1.2;
@@ -765,14 +766,14 @@ html, body {
   color: #fff;
 }
 
-/* line 72, ../scss/modules/_header.scss */
+/* line 73, ../scss/modules/_header.scss */
 .site-title .subtitle {
   font-size: 12px;
   font-style: italic;
   color: #eee;
 }
 
-/* line 77, ../scss/modules/_header.scss */
+/* line 78, ../scss/modules/_header.scss */
 .slogan {
   font-size: 13px;
   margin: 0;
@@ -783,8 +784,9 @@ html, body {
 /*
 	Main nav
 */
-/* line 87, ../scss/modules/_header.scss */
+/* line 88, ../scss/modules/_header.scss */
 .main-nav {
+  min-width: 900px;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -792,13 +794,13 @@ html, body {
   border-bottom: 1px solid #223a55;
   text-align: center;
 }
-/* line 95, ../scss/modules/_header.scss */
+/* line 97, ../scss/modules/_header.scss */
 .main-nav > ul {
   margin: -1px 0;
   padding: 0;
   list-style: none;
 }
-/* line 100, ../scss/modules/_header.scss */
+/* line 102, ../scss/modules/_header.scss */
 .main-nav > ul > li {
   margin: 0 10px;
   padding: 0;
@@ -809,7 +811,7 @@ html, body {
   zoom: 1;
   *display: inline;
 }
-/* line 105, ../scss/modules/_header.scss */
+/* line 107, ../scss/modules/_header.scss */
 .main-nav > ul > li > a {
   display: block;
   padding: 10px 15px;
@@ -821,7 +823,7 @@ html, body {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 113, ../scss/modules/_header.scss */
+/* line 115, ../scss/modules/_header.scss */
 .main-nav > ul > li > a:hover {
   background: #fff;
   color: #222222;
@@ -978,6 +980,7 @@ html, body {
 */
 /* line 4, ../scss/modules/_bb-slider.scss */
 .bb-slider {
+  min-width: 900px;
   height: 250px;
   background: #e2e2e2;
   margin: -40px auto 20px;
@@ -986,7 +989,7 @@ html, body {
   -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
-/* line 11, ../scss/modules/_bb-slider.scss */
+/* line 12, ../scss/modules/_bb-slider.scss */
 .bb-slider:before {
   content: '';
   position: absolute;
@@ -999,21 +1002,21 @@ html, body {
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.8);
   z-index: -1;
 }
-/* line 22, ../scss/modules/_bb-slider.scss */
+/* line 23, ../scss/modules/_bb-slider.scss */
 .bb-slider .slide {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 28, ../scss/modules/_bb-slider.scss */
+/* line 29, ../scss/modules/_bb-slider.scss */
 .bb-slider .slide img {
   position: absolute;
   top: 0;
   left: 50%;
   margin-left: -750px;
 }
-/* line 36, ../scss/modules/_bb-slider.scss */
+/* line 37, ../scss/modules/_bb-slider.scss */
 .bb-slider .slide .slide-message {
   position: absolute;
   top: 40px;
@@ -1026,7 +1029,7 @@ html, body {
   width: 450px;
   height: 100px;
 }
-/* line 49, ../scss/modules/_bb-slider.scss */
+/* line 50, ../scss/modules/_bb-slider.scss */
 .bb-slider .slide .slide-message .main {
   display: block;
   font-size: 34px;
