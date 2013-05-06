@@ -1,0 +1,122 @@
+.page-header {
+    margin: 0 0 40px;
+    padding: 0;
+    font-family: Georgia, serif;
+    background: $headerBGColor;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,.5);
+            box-shadow: 0px 1px 3px 0px rgba(0,0,0,.5);
+    
+    }
+
+
+/* 
+	Top panel
+*/
+.top-panel {
+	background:#333;
+	padding: 10px 0;
+	color: darken(#fff,10%);
+	text-shadow:0 1px 0 #000;
+	font:normal 12px/14px Arial, Helvetica, sans-serif;
+
+	.phone-number {
+		float: left;
+	}
+
+	.global-nav {
+		margin: 0;
+		padding: 0;
+		float: right;
+
+		&>ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			&>li {
+				display: inline;
+				margin: 0 0 0 20px;
+				padding: 0;
+
+				&>a {
+					color: darken(#fff,10%);
+					text-decoration: none;
+
+					&:hover {
+						color: #fff;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* 
+	Header content 
+*/
+.header-content {
+	padding: 20px 0;
+	border-top: 1px solid lighten($headerBGColor, 5%);
+	border-bottom: 1px solid darken($headerBGColor, 10%);
+	text-shadow:0 1px 0 rgba(0,0,0,0.3);
+}
+.site-title {
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 0 0 5px;
+    text-align: center;
+    color: #fff;
+}
+.site-title .subtitle {
+    font-size: 12px;
+    font-style: italic;
+    color: #eee;
+}
+.slogan {
+    font-size: 13px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+/*
+	Main nav
+*/
+.main-nav {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid lighten($headerBGColor, 5%);
+	border-bottom: 1px solid darken($headerBGColor, 10%);
+	text-align: center;
+
+	& > ul {
+		margin: -1px 0;
+		padding: 0;
+		list-style: none;
+
+		& > li {
+			margin: 0 10px;
+			padding: 0;
+			@include inline-block;
+
+			& > a {
+				display: block;
+				padding: 10px 15px;
+				color: #fff;
+				text-shadow:0 1px 0 rgba(0,0,0,0.6);
+				text-decoration: none;
+				@include transition(all .2s);
+
+				&:hover {
+					background:#fff;
+					color: $darkenTextColor;
+					text-decoration: none;
+					text-shadow:none;
+				}
+			}
+		}
+	}
+}

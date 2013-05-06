@@ -1,0 +1,46 @@
+@mixin arrow($dir, $size, $color, $hoverColor) {
+    position: relative;
+    padding-right: 15px;
+    
+    &:after {
+        content: " ";
+        position: absolute;
+        top:50%;
+        right: 0;
+        height: 0;
+        width: 0;
+        border: $size solid transparent;
+        pointer-events: none;
+        margin-top: - $size;
+ 
+        @if ($dir == "up") {
+            border-bottom-color: $color;
+            margin-top: - $size*1.2;
+        }
+        @else if ($dir == "right") {
+            border-left-color: $color;
+        }
+        @else if ( $dir == "down") {
+            border-top-color: $color;
+            margin-top: - $size/4;
+        }
+        @else if ($dir == "left") {
+            border-right-color: $color;
+        }
+    }
+
+    &:hover:after {
+        @if ($dir == "up") {
+            border-bottom-color: $hoverColor;
+        }
+        @else if ($dir == "right") {
+            border-left-color: $hoverColor;
+        }
+        @else if ( $dir == "down") {
+            border-top-color: $hoverColor;
+        }
+        @else if ($dir == "left") {
+            border-right-color: $hoverColor;
+        }
+    }
+}

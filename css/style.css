@@ -1,206 +1,1035 @@
+/* normalize.css v1.0.1 | MIT License | git.io/normalize */
+/* line 2, ../scss/_normalize.min.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../scss/_normalize.min.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 4, ../scss/_normalize.min.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 5, ../scss/_normalize.min.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 6, ../scss/_normalize.min.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 7, ../scss/_normalize.min.scss */
+html, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/* line 8, ../scss/_normalize.min.scss */
+body {
+  margin: 0;
+}
+
+/* line 9, ../scss/_normalize.min.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 10, ../scss/_normalize.min.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 11, ../scss/_normalize.min.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/* line 12, ../scss/_normalize.min.scss */
+h2 {
+  font-size: 1.5em;
+  margin: .83em 0;
+}
+
+/* line 13, ../scss/_normalize.min.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 14, ../scss/_normalize.min.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 15, ../scss/_normalize.min.scss */
+h5 {
+  font-size: .83em;
+  margin: 1.67em 0;
+}
+
+/* line 16, ../scss/_normalize.min.scss */
+h6 {
+  font-size: .75em;
+  margin: 2.33em 0;
+}
+
+/* line 17, ../scss/_normalize.min.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 18, ../scss/_normalize.min.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 19, ../scss/_normalize.min.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 20, ../scss/_normalize.min.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 21, ../scss/_normalize.min.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 22, ../scss/_normalize.min.scss */
+p, pre {
+  margin: 1em 0;
+}
+
+/* line 23, ../scss/_normalize.min.scss */
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  _font-family: 'courier new',monospace;
+  font-size: 1em;
+}
+
+/* line 24, ../scss/_normalize.min.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 25, ../scss/_normalize.min.scss */
+q {
+  quotes: none;
+}
+
+/* line 26, ../scss/_normalize.min.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 27, ../scss/_normalize.min.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 28, ../scss/_normalize.min.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 29, ../scss/_normalize.min.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 30, ../scss/_normalize.min.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 31, ../scss/_normalize.min.scss */
+dl, menu, ol, ul {
+  margin: 1em 0;
+}
+
+/* line 32, ../scss/_normalize.min.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 33, ../scss/_normalize.min.scss */
+menu, ol, ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 34, ../scss/_normalize.min.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 35, ../scss/_normalize.min.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 36, ../scss/_normalize.min.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 37, ../scss/_normalize.min.scss */
+figure {
+  margin: 0;
+}
+
+/* line 38, ../scss/_normalize.min.scss */
+form {
+  margin: 0;
+}
+
+/* line 39, ../scss/_normalize.min.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 40, ../scss/_normalize.min.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 41, ../scss/_normalize.min.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 42, ../scss/_normalize.min.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 43, ../scss/_normalize.min.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 44, ../scss/_normalize.min.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 45, ../scss/_normalize.min.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 46, ../scss/_normalize.min.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 47, ../scss/_normalize.min.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 48, ../scss/_normalize.min.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 49, ../scss/_normalize.min.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 50, ../scss/_normalize.min.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 17, ../scss/_defaults.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 21, ../scss/_defaults.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 29, ../scss/_defaults.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 34, ../scss/_defaults.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 40, ../scss/_defaults.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 49, ../scss/_defaults.scss */
+a {
+  color: #315379;
+  text-decoration: underline;
+}
+/* line 53, ../scss/_defaults.scss */
+a:hover {
+  color: #406c9d;
+}
+
+/* line 58, ../scss/_defaults.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 64, ../scss/_defaults.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 72, ../scss/_defaults.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 76, ../scss/_defaults.scss */
+h1 {
+  font-size: 26px;
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+/* line 81, ../scss/_defaults.scss */
+h2 {
+  font-size: 24px;
+  margin: 30px 0 20px;
+  padding: 0;
+}
+
+/* line 86, ../scss/_defaults.scss */
+h3 {
+  font-size: 14px;
+  margin: 20px 0 10px;
+  padding: 0;
+}
+
+/* line 91, ../scss/_defaults.scss */
+h4 {
+  font-size: 12px;
+  margin: 8px 0 5px;
+  padding: 0;
+}
+
+/* line 97, ../scss/_defaults.scss */
+h1, h2, h3, h4 {
+  line-height: 1.2;
+  font-style: normal;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* line 102, ../scss/_defaults.scss */
+h1 + h2, h1 + h3, h2 + h3 {
+  margin-top: 0;
+}
+
+/* line 107, ../scss/_defaults.scss */
+table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+/* line 112, ../scss/_defaults.scss */
+td, th {
+  vertical-align: top;
+  padding: 5px 5px;
+  border: none;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 137, ../scss/_defaults.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 145, ../scss/_defaults.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 156, ../scss/_defaults.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 165, ../scss/_defaults.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 182, ../scss/_defaults.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 195, ../scss/_defaults.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 212, ../scss/_defaults.scss */
+.clearfix:before, .centered-content:before,
+.clearfix:after,
+.centered-content:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 217, ../scss/_defaults.scss */
+.clearfix:after, .centered-content:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 226, ../scss/_defaults.scss */
+.clearfix, .centered-content {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 253, ../scss/_defaults.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 261, ../scss/_defaults.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 265, ../scss/_defaults.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 269, ../scss/_defaults.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 279, ../scss/_defaults.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 284, ../scss/_defaults.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 289, ../scss/_defaults.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 294, ../scss/_defaults.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 298, ../scss/_defaults.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 308, ../scss/_defaults.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 314, ../scss/_defaults.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
 /*====================/
     Layout
 /====================*/
-
+/* line 5, ../scss/_layout.scss */
 html, body {
-    height: 100%;
-    background: #fff;
+  height: 100%;
+  background: #fff;
 }
+
+/* line 9, ../scss/_layout.scss */
 .layout {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    }
-    .page-header {
-        position: relative;
-        z-index: 3;
-    }
-    .page-main {
-        padding-bottom: 100px;
-        position: relative;
-        z-index: 1;
-    }
-.page-footer {
-    height: 40px;
-    padding: 10px 0;
-    position: relative;
-    z-index: 2;
-    margin-top: -60px;
-    overflow: hidden;    
-}
-.centered-content {
-    margin: 0 auto;
-    width: 800px;
-    position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
 }
 
-
-/*====================/
-    Header
-/====================*/
+/* line 14, ../scss/_layout.scss */
 .page-header {
-    margin: 0 0 20px;
-    padding: 20px 0 10px;
-    text-align: center;
-    font-family: Georgia, serif;
-    background: #eee;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.3);
-            box-shadow: 0px 2px 5px 0px rgba(0,0,0,.3);
-    
-    }
-    .site-title {
-        font-size: 22px;
-        line-height: 1.2;
-        margin: 0 0 10px;
-    }
-    .site-title .subtitle {
-        font-size: 12px;
-        font-style: italic;
-        color: #999;
-    }
-    .slogan {
-        font-style: italic;
-        font-size: 13px;
-        margin: 0;
-    }
-    .phone {
-        position: absolute;
-        top: 0px;
-        right: 0;
-        font-size: 18px;
-        text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-    }
+  position: relative;
+  z-index: 3;
+}
+
+/* line 18, ../scss/_layout.scss */
+.page-main {
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 23, ../scss/_layout.scss */
+.page-footer {
+  height: 40px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 2;
+  margin-top: -60px;
+  overflow: hidden;
+}
+
+/* line 31, ../scss/_layout.scss */
+.centered-content {
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+}
 
 /*====================/
     Main
 /====================*/
-
-/*
-    Car preview
+/* 
+    Columns
 */
-.car-preview {
-    padding: 0 0 40px 0;
-    margin-bottom: 40px;
-    border-bottom: #f5f5f5 solid 10px;
-    font-size: 13px;
-    line-height: 1.3;
-    }
-    .car-preview > h2:first-child {
-        margin-top: 0;
-    }
-    .car-preview .car-gallery {
-        float: left;
-        width: 410px;
-        margin-right: 30px;
-    }
-    .car-preview .car-description {
-        float: left;
-        width: 360px;
-    }
-
-    /* State: last child */
-    .car-preview:last-child {
-        border-bottom: none;
-        padding-bottom: 0;
-    }
-
-/*
-    Details table
-*/
-.details-table {
-    font-size: 12px;
-    line-height: 1.2;
-    }
-    .details-table tr > td:first-child {
-        font-style: italic;
-        font-family: Georgia, Times, "Times New Roman", serif;
-        color: #999;
-        }
-
-/*
-    Car parts list
-*/
-.parts-list {
-    font-size: 0;
-    line-height: 0;
-    margin: 0 0 0 -10px;
-    padding: 0;
-    list-style: none;
+/* line 46, ../scss/_layout.scss */
+.col-1-of-3 {
+  margin: 0 50px 0 0;
+  float: left;
 }
-    .parts-unit {
-        font-size: 12px;
-        line-height: 1.2;
-        display: inline-block;
-        *display: inline;
-        *zoom: 1;
-        vertical-align: top;
-        width: 130px;
-        position: relative;
-        margin: 0 20px 20px 0;
-        padding: 5px;
-        background: #fcfcfc;
-        -webkit-border-radius: 4px;
-        border-radius: 4px;
-        -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,.1);
-                box-shadow: 0px 0px 3px 0px rgba(0,0,0,.1);
-        }
-        .parts-unit .thumb {
-            width: 100%;
-            height: 100px;
-            font-size: 0;
-            line-height: 100px;
-            overflow: hidden;
-            margin-bottom: 10px;
-            }
-            .parts-unit .thumb:before {
-                content:'';
-                width: 1px;
-                height: 100px;
-                vertical-align: middle;
-                margin-right: -1px;
-                }
-            .parts-unit .thumb img {
-                display: inline;
-                max-height: 100%;
-                max-width: 100%;
-                width: auto;
-                height: auto;
-                margin-right: -1px;
-            }
-            .parts-unit .thumb a:hover img{
-                -moz-opacity: 0.8;
-                opacity: 0.8;
-                filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
-                *zoom: 1;
-            }
-        .parts-unit .parts-title {
-            margin: 0 0 5px;
-            font: normal 13px/1.2 Arial,sans-serif;
-        }
-        .parts-unit .parts-price {
-            font-size: 12px;
-            line-height: 1.2;
-            display: block;
-            text-align: right;
-            text-shadow: 0 1px 0 #fff;
-            }
-            .parts-unit .parts-price small {
-                font-size: 12px;
-            }
+/* line 50, ../scss/_layout.scss */
+.col-1-of-3:last-child {
+  margin-right: 0;
+}
+
+/* line 55, ../scss/_layout.scss */
+.col-1-of-3 {
+  width: 265px;
+}
 
 /*====================/
     Footer
 /====================*/
-
+/* line 63, ../scss/_layout.scss */
 .page-footer {
-    background:#eee url(../img/fabric_of_squares_gray.png);
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,.25) inset;
-            box-shadow: 0px 2px 2px 0px rgba(0,0,0,.25) inset;
-    font-size: 12px;
-    line-height: 1.2;
+  background: #eeeeee url(../img/fabric_of_squares_gray.png);
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25) inset;
+  font-size: 12px;
+  line-height: 1.2;
 }
 
+/* line 1, ../scss/modules/_header.scss */
+.page-header {
+  margin: 0 0 40px;
+  padding: 0;
+  font-family: Georgia, serif;
+  background: #315379;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
 
+/* 
+	Top panel
+*/
+/* line 15, ../scss/modules/_header.scss */
+.top-panel {
+  background: #333;
+  padding: 10px 0;
+  color: #e6e6e6;
+  text-shadow: 0 1px 0 #000;
+  font: normal 12px/14px Arial, Helvetica, sans-serif;
+}
+/* line 22, ../scss/modules/_header.scss */
+.top-panel .phone-number {
+  float: left;
+}
+/* line 26, ../scss/modules/_header.scss */
+.top-panel .global-nav {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+/* line 31, ../scss/modules/_header.scss */
+.top-panel .global-nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 36, ../scss/modules/_header.scss */
+.top-panel .global-nav > ul > li {
+  display: inline;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+/* line 41, ../scss/modules/_header.scss */
+.top-panel .global-nav > ul > li > a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+/* line 45, ../scss/modules/_header.scss */
+.top-panel .global-nav > ul > li > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
+/* 
+	Header content 
+*/
+/* line 59, ../scss/modules/_header.scss */
+.header-content {
+  padding: 20px 0;
+  border-top: 1px solid #385f8b;
+  border-bottom: 1px solid #223a55;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
 
+/* line 65, ../scss/modules/_header.scss */
+.site-title {
+  font-size: 25px;
+  line-height: 1.2;
+  margin: 0 0 5px;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 72, ../scss/modules/_header.scss */
+.site-title .subtitle {
+  font-size: 12px;
+  font-style: italic;
+  color: #eee;
+}
+
+/* line 77, ../scss/modules/_header.scss */
+.slogan {
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+/*
+	Main nav
+*/
+/* line 87, ../scss/modules/_header.scss */
+.main-nav {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #385f8b;
+  border-bottom: 1px solid #223a55;
+  text-align: center;
+}
+/* line 95, ../scss/modules/_header.scss */
+.main-nav > ul {
+  margin: -1px 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 100, ../scss/modules/_header.scss */
+.main-nav > ul > li {
+  margin: 0 10px;
+  padding: 0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 105, ../scss/modules/_header.scss */
+.main-nav > ul > li > a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 113, ../scss/modules/_header.scss */
+.main-nav > ul > li > a:hover {
+  background: #fff;
+  color: #222222;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+/*
+    Car preview
+*/
+/* line 4, ../scss/modules/_car-preview.scss */
+.car-preview {
+  padding: 0 0 40px 0;
+  margin-bottom: 40px;
+  border-bottom: #f5f5f5 solid 10px;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+/* line 11, ../scss/modules/_car-preview.scss */
+.car-preview > h2:first-child {
+  margin-top: 0;
+}
+
+/* line 14, ../scss/modules/_car-preview.scss */
+.car-preview .car-gallery {
+  float: left;
+  width: 410px;
+  margin-right: 30px;
+}
+
+/* line 19, ../scss/modules/_car-preview.scss */
+.car-preview .car-description {
+  float: left;
+  width: 360px;
+}
+
+/* State: last child */
+/* line 25, ../scss/modules/_car-preview.scss */
+.car-preview:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/*
+    Details table
+*/
+/* line 33, ../scss/modules/_car-preview.scss */
+.details-table {
+  font-size: 12px;
+  line-height: 1.2;
+  /* State: narrow */
+}
+/* line 37, ../scss/modules/_car-preview.scss */
+.details-table tr > td:first-child {
+  font-style: italic;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #666;
+  padding-left: 0;
+}
+/* line 45, ../scss/modules/_car-preview.scss */
+.details-table.narrow td {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/*
+    Car parts list
+*/
+/* line 54, ../scss/modules/_car-preview.scss */
+.parts-list {
+  font-size: 0;
+  line-height: 0;
+  margin: 0 0 0 -10px;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 61, ../scss/modules/_car-preview.scss */
+.parts-unit {
+  font-size: 12px;
+  line-height: 1.2;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  width: 130px;
+  position: relative;
+  margin: 0 20px 20px 0;
+}
+
+/* line 72, ../scss/modules/_car-preview.scss */
+.parts-unit .parts-price {
+  font-size: 12px;
+  line-height: 1.2;
+  display: block;
+}
+
+/* line 77, ../scss/modules/_car-preview.scss */
+.parts-unit .parts-price small {
+  font-size: 12px;
+}
+
+/* line 1, ../scss/modules/_thumb-view.scss */
+.thumb-view {
+  /* State: inside parts view */
+}
+/* line 2, ../scss/modules/_thumb-view.scss */
+.thumb-view > a {
+  display: block;
+  outline: #315379 solid 1px;
+}
+/* line 6, ../scss/modules/_thumb-view.scss */
+.thumb-view > a:hover {
+  outline-width: 3px;
+  text-decoration: none;
+}
+/* line 11, ../scss/modules/_thumb-view.scss */
+.thumb-view .thumb {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+/* line 17, ../scss/modules/_thumb-view.scss */
+.thumb-view .thumb img {
+  width: 100%;
+  display: block;
+}
+/* line 23, ../scss/modules/_thumb-view.scss */
+.thumb-view h3 {
+  background: #315379;
+  margin: 0 0 10px;
+  color: #fff;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+/* line 33, ../scss/modules/_thumb-view.scss */
+.parts-unit .thumb-view .thumb {
+  height: 100px;
+}
+/* line 36, ../scss/modules/_thumb-view.scss */
+.parts-unit .thumb-view .thumb img {
+  width: auto;
+  margin: 0 auto;
+  height: 100%;
+}
+/* line 42, ../scss/modules/_thumb-view.scss */
+.parts-unit .thumb-view h3 {
+  font: normal 13px/1.2 Arial, sans-serif;
+}
+
+/*
+    Billboard
+*/
+/* line 4, ../scss/modules/_bb-slider.scss */
+.bb-slider {
+  height: 250px;
+  background: #e2e2e2;
+  margin: -40px auto 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 11, ../scss/modules/_bb-slider.scss */
+.bb-slider:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  right: 40px;
+  height: 10px;
+  -webkit-box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+/* line 22, ../scss/modules/_bb-slider.scss */
+.bb-slider .slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/* line 28, ../scss/modules/_bb-slider.scss */
+.bb-slider .slide img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -750px;
+}
+/* line 36, ../scss/modules/_bb-slider.scss */
+.bb-slider .slide .slide-message {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: -450px;
+  color: #6F3609;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  line-height: 1.2;
+  width: 450px;
+  height: 100px;
+}
+/* line 49, ../scss/modules/_bb-slider.scss */
+.bb-slider .slide .slide-message .main {
+  display: block;
+  font-size: 34px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
